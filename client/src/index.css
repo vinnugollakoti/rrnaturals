@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&display=swap');
+.line1 {
+    font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 23px;
+  padding-top: 3.5%;
+  padding-left: 1.5%;
+  position: relative;
+  z-index: 1; 
+}
+.line2 {
+    font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+  padding-top: 2%;
+  padding-left: 1.5%;
+  position: relative;
+  z-index: 1; 
+}
+.line3 {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    padding-top: 2%;
+    padding-left: 1.5%;
+    position: relative;
+    z-index: 1; 
+}
+.line3-1 {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  padding-top: 2%;
+  padding-left: 1.5%;
+  position: relative;
+  z-index: 1; 
+}
+.line4 {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    padding-top: 2%;
+    padding-left: 1.5%;
+    position: relative;
+    z-index: 1; 
+}
+.line5 {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+    padding-left: 6%;
+    position: relative;
+    z-index: 1; 
+}
+.line6 {
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 6%;
+  padding-top: 4%;
+}
+.line7 {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
