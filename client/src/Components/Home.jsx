@@ -1,8 +1,8 @@
 import  { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
-import logo from "../assets/logo.png";
-import cart from "../assets/cart-logo.png";
-import defaultImage from "../assets/image.png"; // Fallback image
+import logo from "/public/logo.png";
+import cart from "/public/cart-logo.png";
+import defaultImage from "/public/image.png"; // Fallback image
 
 const Home = () => {
     const [cartItems, setCartItems] = useState([]); // Store cart items as objects
@@ -14,7 +14,7 @@ const Home = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await fetch("http://localhost:3001/use/getproducts");
+                const response = await fetch("https://rrnaturals.onrender.com/use/getproducts");
                 if (!response.ok) {
                     throw new Error("Network response was not ok");
                 }
@@ -65,7 +65,7 @@ const Home = () => {
                 <div>
                     {cartItems.length > 0 && (
                         <div className="checkout-btn" onClick={checkout}>
-                            <p className="line7">Home</p>
+                            <p className="line7">Checkout</p>
                             <img src={cart} alt="" className="cart-logo" />
                             <p className="line7">{cartItems.length}</p>
                         </div>

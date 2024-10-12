@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from 'react-router-dom'; // Import useLocation for accessing state
-import logo from "../assets/logo.png"; // Ensure this path is correct
+import logo from "/public/logo.png"; // Ensure this path is correct
 
 const Checkout = () => {
   const location = useLocation();
@@ -35,7 +35,7 @@ const Checkout = () => {
         </center>
         <div>
             <div className="checkout-btn" onClick={handleHome}>
-            <p className="line7">Checkout</p>
+            <p className="line7">Home</p>
             </div>
         </div>
       </div>

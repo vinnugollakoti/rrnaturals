@@ -7,7 +7,7 @@ const Owner = () => {
   const [editProduct, setEditProduct] = useState({ id: '', imageLink: '', title: '', price: '' });
 
   // Base URL for your API
-  const API_BASE_URL = 'http://localhost:3001/use'; // Adjust the API endpoint as necessary
+  const API_BASE_URL = 'https://rrnaturals.onrender.com/use'; // Adjust the API endpoint as necessary
 
   // Fetch all products
   useEffect(() => {
