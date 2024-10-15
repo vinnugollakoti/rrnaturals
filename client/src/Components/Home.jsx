@@ -1,16 +1,15 @@
 import  { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
+import { useNavigate } from "react-router-dom";
 import logo from "/public/logo.png";
 import cart from "/public/cart-logo.png";
-import defaultImage from "/public/image.png"; // Fallback image
+import defaultImage from "/public/image.png";
 
 const Home = () => {
-    const [cartItems, setCartItems] = useState([]); // Store cart items as objects
+    const [cartItems, setCartItems] = useState([]);
     const [quantity, setQuantity] = useState(1);
-    const [products, setProducts] = useState([]); // State to hold products
-    const navigate = useNavigate(); // Initialize useNavigate
+    const [products, setProducts] = useState([]);
+    const navigate = useNavigate();
   
-    // Fetch products from backend on component mount
     useEffect(() => {
         const fetchProducts = async () => {
             try {
@@ -26,7 +25,7 @@ const Home = () => {
         };
         
         fetchProducts();
-    }, []); // Empty dependency array means this runs once on mount
+    }, []); 
   
     const handleIncrement = () => {
         setQuantity((prev) => prev + 1);
